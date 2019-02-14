@@ -17,9 +17,9 @@ Pod::Spec.new do |spec|
   spec.authors = 'Facebook'
   spec.source = {
     :git => 'https://github.com/Naixor/yoga.git',
-    :tag => spec.version.to_s,
+    :commit => '52002e1e',
   }
-  spec.platforms = { :ios => "8.0", :tvos => "10.0" }
+  spec.platforms = { :ios => "8.0" }
   spec.module_name = 'yoga'
   spec.requires_arc = false
   spec.pod_target_xcconfig = {
